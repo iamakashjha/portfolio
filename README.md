@@ -11,7 +11,6 @@ Clean and intuitive design for easy navigation Interactive elements powered by J
 ### Project Goals:
 Showcase my skills and projects Create a user-friendly experience for visitors Implement interactive features to engage and captivate users.
 
-You can check out my project on below link;
+You can check out my project on below link.
 
-#### Link: 
-https://iamakashjha.github.io/portfolio/
+#### Link: https://iamakashjha.github.io/portfolio/
