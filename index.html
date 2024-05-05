@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Jha</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Expertise</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, My name is</p>
+                <h1>Akash Jha<span> 
+                <p>I'm a <span class="typing"></span></p></h1>
+                
+
+            </div>
+        </div>
+    </div>
+
+<!-- /-------- about --------/ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./self.png" alt="self image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Welcome to my portfolio website! I am Akash Jha, a dedicated Data Science enthusiast with a strong foundation in mathematics and computer science. Proficient in Python, SQL, and a range of data analysis tools, I have hands-on experience in data cleaning, exploration, and applying machine learning algorithms.
+                        With internships and exprience at Oasis Infobyte, Unified Mentors, and Epsilon Solutions Ltd, I've worked on diverse projects, from web scraping and predictive modeling to AI-driven business solutions. I've also developed end-to-end projects like a Email Spam Detection using Machine Learning and Car Price Prediction, showcasing my skills in libraries like Numpy, Pandas, and Sk-Learn. My passion for continuous learning is evident through certifications and participation in advanced programs.</p>
+                    <br>
+                    
+                    <div class="tab-title">
+                        <p class="tab-link I" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link II" onclick="opentab('education')">Education</p>
+                        <p class="tab-link III" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-content I" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python | R | SQL</li>
+                            <li><span>Databases </span><br>MySQL</li>
+                            <li><span>Libraries</span><br>NumPy | Pandas | Matplotlib | Sci-Kit Learn | Seaborn | Streamlit | Gradio </li>
+                            <li><span>Machine Learning</span><br>Supervised Learning | Unsupervised Learning</li>
+                            <li><span>Tools</span><br>Anaconda | Jupyter Notebook | Google Colab | AWS SageMaker | RStudio etc.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content II" id="education">
+                        <ul>
+                            <li><span>2024 - 2024</span><br>PG in Data Science, IIDST, Noida</li>
+                            <li><span>2022 - 2024</span><br>Master of Computer Application, RGVP, Bhopal<br>CGPA : 7.56</li>
+                            <li><span>2020 - 2021</span><br>Diploma in Computer Application, MCU, Bhopal<br>Score : 85.67%</li>
+                            <li><span>2017 - 2020</span><br>Bachelors, Jiwaji University, Gwalior<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content III" id="experience">
+                        <ul>
+                            <li><span>Currently</span><br>Looking opportunities in Data Science</li>
+                            <li><span>Apr'2024 - Present</span><br>Data Science Intern <br><p> Unified Mentor Private Limited</p></li>
+                            <li><span>Apr'2024 - Present</span><br>Data Science Intern <br><p> Oasis Infobyte</p></li>
+                            <li><span>Feb'2024 - Present</span><br>Sr. Technical Recruiter<br><p>Epsilon Solutions Ltd</p></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------services-------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Expertise</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p>I'm particularly drawn to machine learning because it empowers me to build predictive models and algorithms that learn from data. Machine learning enables me to create systems that can automatically learn and improve from experience, without being explicitly programmed. I'm fascinated by the blend of mathematics, statistics, and computer science that underpins machine learning.</p>
+                </div>
+                
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>EDA</h2>
+                    <p>Exploratory Data Analysis (EDA) is an analysis approach that identifies general patterns in the data. These patterns include outliers and features of the data that might be unexpected.</p>
+                </div>
+
+                <div>
+                    <i class="fas fa-wand-magic-sparkles"></i>
+                    <h2>Data Wrangling</h2>
+                    <p>Data wrangling, is the process of transforming raw data into a more usable format for analysis. It involves gathering, selecting, and altering data to answer a question.</p>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio----------  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./iris.jpg" alt="Iris Flower Classification">
+                    <div class="layer">
+                        <h2>Iris Flower Classification</h2>
+                        <p>Iris flower has three species; setosa, versicolor, and virginica, which differs according to their measurements. We have the measurements of the iris flowers according to their species, and here I've trained a machine learning model that can classify them based on their measurement of Sepal Length, Sepal Width, Petal Length, and Petal Width.</p>
+                        <a href="https://github.com/iamakashjha/iris-flower-classification"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./car.jpeg" alt="Car Price Prediction with Machine Learning">
+                    <div class="layer">
+                        <h2>Car Price Prediction with Machine Learning</h2>
+                        <p>Built a machine learning model capable of predicting car prices with high accuracy. Identify the key features that significantly influence car prices. Evaluate the performance of the model using appropriate metrics and techniques.</p>
+                        <a href="https://github.com/iamakashjha/car-price-prediction-with-ml"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./email.jpeg" alt="Email Spam Detection with Machine Learning">
+                    <div class="layer">
+                        <h2>Email Spam Detection with Machine Learning</h2>
+                        <p>The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam. I have performed data cleaning, EDA, and applied the Naive Bayes classifier on this data with 3 different classification algorithms, Successfully predicting results with 98% accuracy.</p>
+                        <a href="https://github.com/iamakashjha/Email-spam-detection-with-machine-learning"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="certifications">
+                <a href="https://drive.google.com/drive/folders/1k7K0mfOSxLegEjNZasEM5YDCaWgOZWom?usp=drive_link">Certifications</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-1">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><a href="Akash.jha90390@gmail.com"><i class="fa-solid fa-envelope"></i> Akash.jha90390@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8819990390</p>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/iamakashjha"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/iamakashjha"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://kaggle.com/iamakashjha"><i class="fa-brands fa-kaggle"></i></a>
+                    </div>
+                        <a href="./Akash_Jha_Resume.pdf" class="resume">Download CV</a>
+                </div>
+                <div class="contact-2">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Akash Jha. Made with <i class="fa-solid fa-heart"></i></p>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
