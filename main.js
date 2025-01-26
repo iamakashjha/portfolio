@@ -52,7 +52,7 @@ form.addEventListener('submit', e => {
 });
 // typing text animation script
 var typed = new Typed(".typing", {
-    strings: ["Data Scientist", "AI/ML Engineer"],
+    strings: ["a Data Scientist", "an AI/ML Engineer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
